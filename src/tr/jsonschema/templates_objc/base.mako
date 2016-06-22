@@ -166,4 +166,4 @@ prop_classname = varType.replace(' *','')
 //
 //  Created by js2Model on ${timestamp}.
 //
-<%block name="code" />\
+<%block name="code" />
