@@ -1,7 +1,7 @@
 //
 //  ${file_name}
 //
-//  Created by js2Model on {{ timestamp }}.
+//  Created by js2Model on ${timestamp}.
 //
 // Copyright (c) 2015 Thomson Reuters
 //
