@@ -11,7 +11,7 @@
 #import "TRFriends.h"
 #import "TRName.h"
 
-@interface TRTestData : NSObject 
+@interface TRTestData : NSObject
 
 @property(strong, nonatomic) NSString * guid;
 @property(strong, nonatomic) NSNumber * index;

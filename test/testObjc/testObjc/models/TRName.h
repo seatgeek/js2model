@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TRName : NSObject 
+@interface TRName : NSObject
 
 @property(strong, nonatomic) NSString * last;
 @property(strong, nonatomic) NSString * first;

@@ -41,11 +41,11 @@ THE SOFTWARE.
 <%
     superClass = classDef.superClasses[0] if len(classDef.superClasses) else 'NSObject'
     if len(classDef.interfaces):
-        protocols =  '<' + ( (classDef.interfaces|join(', ')) if classDef.interfaces else '') + '>'
+        protocols =  ' <' + ( (classDef.interfaces|join(', ')) if classDef.interfaces else '') + '>'
     else:
         protocols = ''
 %>
-@interface ${classDef.name} : ${superClass} ${protocols}
+@interface ${classDef.name} : ${superClass}${protocols}
 
 % for v in classDef.variable_defs:
 ${base.propertyDecl(v)}

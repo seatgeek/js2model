@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TRFriends : NSObject 
+@interface TRFriends : NSObject
 
 @property(strong, nonatomic) NSString * name;
 @property(strong, nonatomic) NSNumber * id_;
